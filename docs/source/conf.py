@@ -30,13 +30,15 @@ templates_path = ['_templates']
 # -- Options for HTML output
 
 html_theme = 'sphinx_rtd_theme'
-html_theme_path = ["_themes", ]
-
-html_static_path = ['_static']
+html_static_path = ['_static/']
 html_logo = 'colmena-logo.svg'
+html_show_sourcelink = True
+html_favicon = "IconColmena_color.svg"
 html_theme_options = {
     'logo_only': True,
+    'navigation_depth': 5,
 }
+
 
 
 # -- Options for EPUB output
