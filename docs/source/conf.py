@@ -2,9 +2,9 @@
 
 # -- Project information
 
-project = 'Lumache'
-copyright = '2021, Graziella'
-author = 'Graziella'
+project = 'Colmena'
+copyright = '2022, colmena.media'
+author = 'Colmena Team'
 
 release = '0.1'
 version = '0.1.0'
@@ -30,6 +30,9 @@ templates_path = ['_templates']
 # -- Options for HTML output
 
 html_theme = 'sphinx_rtd_theme'
+html_theme_path = ["_themes", ]
+
+
 
 # -- Options for EPUB output
 epub_show_urls = 'footnote'
